@@ -17,7 +17,7 @@ const userSchema = new mongoose.Schema({
   },
   avatar: {
     type: String,
-    default: "https://via.placeholder.com/150", // Default value for avatar field
+    default: "https://via.placeholder.com/150", 
   },
   created_at: {
     type: Date,

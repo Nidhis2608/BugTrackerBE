@@ -36,7 +36,7 @@ cloudinary.config({
 userRouter.post("/register", upload.single("avatar"), async (req, res) => {
   const { name, email, password } = req.body;
   const created_at = new Date();
-
+  console.log(req.body);
   try {
     const user = await UserModel.findOne({ email });
 
