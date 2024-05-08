@@ -22,6 +22,7 @@ userRouter.get("/", async (req, res) => {
 // Multer configurationb
 const storage = multer.diskStorage({});
 const upload = multer({ storage });
+//newcomment
 
 // Cloudinary configuration
 // import { v2 as cloudinary } from "cloudinary";
